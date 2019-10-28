@@ -1,0 +1,61 @@
+﻿#contentsWrap{clear: both; width: 1130px; margin-top: 10px; margin-left: 35px; margin-right: 35px; background: #eeeeee;}
+
+/* 컨텐츠 왼쪽 박스 시작 */
+#mainLeft{float:left; width: 275px; margin-right: 15px; }
+
+/* 로그인 박스 */
+#loginBox{width: 275px; height: 187px; margin-bottom: 20px;  background-color: #eaf5e7; }
+	#loginBox span{display: block; color: #3e951e; font-size: 1.1em; font-weight: bold; text-align: center; padding-top: 12px; padding-bottom: 12px; letter-spacing: 0.2em;}
+	#loginBox .leftBox{float: left; width: 172px; height: 56px;}
+	#loginBox dt{display: none;}
+	#loginBox dd{padding-left: 30px; padding-bottom: 4px;}
+	#loginBox dd input[type='text'], #loginBox dd input[type='password']{width: 140px; height: 16px; padding: 3px 0px; border: 1px solid #328a00; vertical-align: top;}
+	#loginBox .rightBox{float: left; width: 82px; height: 56px; margin-left: 2px;}
+	#loginBox input[type='button']{width: 80px; height: 52px; background-color: #99bc24; color: #ffffff; font-weight: bold; font-size: 1em; border-style: none; border: 1px solid #ffffff; cursor: pointer; line-height: 52px;}
+	#loginBox .btn1{clear: both; padding-left: 50px; margin-top: 10px; color: #429e14; font-size: 0.8em;}
+	#loginBox .btn1 label{padding-right: 15px;}
+	#loginBox .btn1 input[type='checkbox']{position: relative; top: 2px;}
+	#loginBox .loginBottom{height: 25px; margin-top: 12px; padding-top: 8px; border-top: 2px solid #48bc00;}
+	#loginBox .loginBottom ul{margin-top: 2px; margin-left: 30px;}
+	#loginBox .loginBottom ul li{float: left; letter-spacing: -1px; padding-left: 15px; background: url(../images/dot.gif) no-repeat 1px 8px;}
+	#loginBox .loginBottom ul li.pdr{padding-right: 8px;}
+	#loginBox .loginBottom ul li a{display: block; font-size: 0.8em; color: #369e14; font-weight: bold;}
+
+/* 공지사항 */
+#notice{width: 275px; height: 142px; margin-bottom: 20px; background-color: #ffffff;  font-family: '돋움체', sans-serif; }
+#communityBanner1{width: 275px; height: 69px; margin-bottom: 7px; }
+#communityBanner2{width: 275px; height: 70px; margin-bottom: 7px; }
+#eventBanner{width: 275px; height: 82px; margin-bottom: 20px; }
+
+/* 스케줄표 (달력) */
+#schedule{width: 275px; height:198px; border-radius: 10px; background-color: #f7f5e9; }
+
+/* 컨텐츠 중간 박스 시작 */
+#mainCenter{float: left; width: 550px; margin-right: 15px; }
+
+/* 메인배너 */
+#centerBanner{width: 526px; height: 165px; margin-bottom: 20px; border: 12px solid #e8e9d7; }
+
+/* 자유게시판 */
+#freeBoard{width: 548px; height: 193px; margin-bottom: 20px; font-family: '돋움체', sans-serif; border: 1px solid #b8c923; border-radius: 20px 20px 0 0; border-bottom: none; background-color: #ffffff; }
+
+/* 리뷰게시판 */
+#review{width: 550px; height: 183px; margin-bottom: 20px; font-family: '돋움체', sans-serif; background: #ffffff; }
+
+/* 자유갤러리 */
+#freeGallery{width: 548px; height: 195px; font-family: '돋움체', sans-serif; border: 1px solid #b8c823; border-radius: 15px; box-shadow: 0 0 3px #4dbf19; background-color: #ffffff; }
+
+/* 컨텐츠 오른쪽 박스 시작 */
+#mainRight{float: left; width: 275px; }
+
+/* 오른쪽 배너 */
+#rightBanner{width: 275px; height: 187px; margin-bottom: 20px; }
+
+/* 정보마당 그림 게시판*/
+#information{width: 275px; height: 230px; margin-bottom: 20px; background-color: #ffffff; }
+
+/* 퀵메뉴 부분 */
+#quickMenu{width: 275px; height: 85px; margin-bottom: 20px; border: 1px solid #b8c823; border-radius: 15px; background-color: #ffffff; }
+
+/* dy사람들 */
+#dypeople{width: 275px; height: 235px; font-family: '돋움체', sans-serif; background-color: #ffffff; }

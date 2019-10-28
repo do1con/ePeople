@@ -1,0 +1,29 @@
+﻿*{margin: 0; padding: 0;}
+
+body{background: url(../images/d-day_popup.png) no-repeat center top; background-color: #4fbbe9; overflow: hidden;}
+
+.dday{width: 430px; height: 145px; text-align: center; margin: 0 auto;margin-top: 80px;}
+	.days{color: #ffffff; font-size: 60px; font-weight: bolder;}
+		.d{margin-left:-10px; .margin-left: -24px;}
+		#days10{margin-left: -14px; .margin-left: -14px;}
+		#days1{margin-left: -14px; .margin-left: -14px;}
+	
+	.time{color: #fff59c; font-weight: bolder; font-size: 36px;}
+		.time>img{margin-left: -13px; .margin-left: -12px;}
+		.time>#dot{margin-bottom: 5px; margin-left: -10px; .margin-left: -7px;}
+		.time>#hours10{margin-left: -40px;} 
+		.time>#mins1{margin-right: 5px;}
+		
+	
+	.renew{display: block; margin-left: -10px; margin-top: 25px;}
+		
+	
+.content>p{font-size: 20px; font-weight: bold; color: #ffffff; text-align: center; margin-top: 40px;}
+
+.close{width: 100%; height: 30px; }
+.close>input[type='checkBox']{margin-left: 15px;}
+.close>input[type='submit']{margin-right: 15px; cursor: pointer;}
+
+input[type='submit']{width: 100px; height: 30px; text-align: center; font-size: 13px; background-color: #ffffff; border: 0px solid #ffffff; margin: 0 auto; color: #2d99c7; float: right; font-weight: bolder;}
+input[type='checkbox']{margin-top: 9px;}
+label[for='dontShow']{color: #ffffff; font-size: 13px; font-weight: bolder;}

@@ -1,0 +1,69 @@
+﻿
+
+
+		
+/* 섹션 */
+#section{width: 1400px; margin: 0 auto; }
+	
+/* lnb 메뉴 부분 */
+#ssLnb{width: 300px; height: 1000px;}
+	#section #ssLnb>h2{height: 100px; margin-top: 80px;  color: #3b6cca; font-size: 50px; background: url(../images/lnb_bg.gif) no-repeat 7px 80px;}
+	#ssSideMenu{width: 300px; margin-top: 20px; letter-spacing: -1px;}
+	#ssSideMenu>ul>li{height: 50px; width: 290px; transition: height 0.8s; overflow:hidden;  border-bottom: 1px solid #e4e4e4; margin-left:8px; background: url(../images/plus_button.gif) no-repeat 270px center;}
+	#ssSideMenu>ul>.current{height: 200px;}
+	#ssSideMenu>ul>.current>a{background-color:#608ee6; color: white;}
+	#ssSideMenu>ul>.current>ul>li>.current{text-decoration: underline; color: #333333; font-weight: bold;}
+	#ssSideMenu>ul>li a{display: block; width:100%; font-size: 22px; line-height: 50px; color: #666666; padding-left: 30px; font-weight: bold;}
+	#ssSideMenu ul li ul li a{display: block; width: 290px; height: 50px; font-size: 18px; line-height: 50px; color: #666666; background: url(../../images/lnb_bg_bar.gif) no-repeat 10px center; background-color:#f2f2e5; padding-left:30px; font-weight: normal;}
+	
+	/* lnb메뉴 호버 */
+	#ssSideMenu>ul>.secondTap:hover{height: 150px;}
+	#ssSideMenu>ul>.thirdTap:hover{height: 150px;}
+	#ssSideMenu>ul>li:hover>a{background-color:#608ee6; color: white;}
+	#ssSideMenu>ul>li>ul>li>a:hover{text-decoration: underline; color: #333333; font-weight: bold;}
+		
+		
+/* rnb 본문 부분 */
+#ssRnb{width: 1064px; margin-top: 80px; margin-left: 35px;}
+	.ssContentHeader{width: 1064px; height:65px; /* background-color:#ffffff; */}
+		.ssTitleSection{width: 1064px; height:86px; border-bottom: 14px solid #dddddd;}
+		.ssTitleSection>h2{font-size: 49px; font-weight: bold; margin-right: 258px; color: #444444;}
+		.ssTitleSection>a>img{margin-top:12px; margin-left:5px;}
+	.headerSection>p{margin-top: 15px;}
+	.headerSection>p a{color: #878689; font-size: 20px; font-weight: bold;}
+	.headerSection>p a.choose{color: #333333;}
+	.headerSection>p a:after{content: ' > ';}
+	.headerSection>p>a.choose:after{content: '';}
+
+/* 본문 */
+.leftContent{margin-top: 20px; width: 530px; color:#666666;}
+.rightContent{margin-top: 20px; width: 530px; color:#666666; margin-left: 4px; }
+	.tap1{width: 1064px; border-top: 2px solid #444444; margin-top: 110px;}
+	.tap1>h3{margin-top: 40px; font-size: 30px; color: #505050}
+	.tap1>.leftContent>span{font-weight: bold; color:#e26f4e;}
+	.tap1>.rightContent{height: 340px; background: url(../../images/content_01.gif) no-repeat 270px bottom;}
+	.tap2{width: 1064px; border-top: 2px solid #444444;}
+	.tap2>p{padding-top: 15px; color: #666666;}
+	.tap2>h3{margin-top: 40px; font-size: 30px; color: #505050}
+	.tap2 h4{font-size: 24px; color: #608ee6; margin-bottom: 5px;}
+	.tap2>.leftContent>p{font-weight: bold; color:#e26f4e;}
+	.tap2>.rightContent{height: 220px; background: url(../../images/content_02.gif) no-repeat 270px bottom;}
+	.tap3{width: 1064px; border-top: 2px solid #444444;}
+	.tap3>p{padding-top: 15px; color: #666666;}
+	.tap3>h3{margin-top: 40px; font-size: 30px; color: #505050}
+	.tap3>.leftContent{height: 220px; background: url(../../images/content_03.gif) no-repeat 20px 80px;}
+	.tap4{width: 1064px; border-top: 2px solid #444444; background: url(../../images/content_04.gif) no-repeat 765px bottom;}
+	.tap4>p{padding-top: 15px; color: #666666;}
+	.tap4>h3{margin-top: 40px; font-size: 30px; color: #505050}
+	.tap5{width: 1064px; border-top: 2px solid #444444; background: url(../../images/content_95.gif) no-repeat 765px 500px;}
+	.tap5>p{padding-top: 15px; color: #666666;}
+	.tap5>h3{margin-top: 40px; font-size: 30px; color: #505050}
+	.tap5 h4{font-size: 24px; color: #608ee6;}
+	.tap5>.howLong{width: 930px; border: 1px solid #ebebeb; border-top: 2px solid #666666;}
+	.tap5>.howLong .column .category{display: block; width: 798px; float: left;height: 40px; line-height: 40px; .line-height: 40px; border-left: 1px solid #ebebeb; color: #666666;}
+	.tap5>.howLong .column .neededTime{display: block; width: 128px; float: left; height: 40px; line-height: 40px; .line-height: 40px; border-left: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; color: #666666;}
+	
+#ssRnb h5{font-weight: normal; font-size: 28px; text-align: center; margin-top: 30px; margin-bottom: 50px;}
+#ssRnb h5>span{color: #608ee6;}
+#ssRnb h5>span>strong{font-weight: bolder;}
+	

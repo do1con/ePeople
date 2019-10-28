@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>정기점검 안내</title>
+	<style type="text/css">
+		body{background-color:pink;}
+		.popUp{width: 400px; height: 700px; margin: 0 auto;}
+	</style>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="js/popup_script.js">
+
+	</script>
+</head>
+<body onLoad="ddaycount()">
+	<div class="dday">
+		<div class="days">
+			<img src="images/D.png" class="d" alt="D"/>
+			<img src="images/0.png" id="days10" alt="D"/>
+			<img src="images/0.png" id="days1" alt="D"/>
+		</div>
+		<div class="time">
+			<img src="images/D_00.png" id="hours10" alt="H"/>
+			<img src="images/D_00.png" id="hours1" alt="H"/>
+			<img src="images/dot.png" id="dot" alt="dot"/>
+			<img src="images/D_00.png" id="mins10" alt="M"/>
+			<img src="images/D_00.png" id="mins1" alt="M"/>
+			<img src="images/dot.png" id="dot" alt="dot"/>
+			<img src="images/D_00.png" id="secs10" alt="S"/>
+			<img src="images/D_00.png" id="secs1" alt="S"/>
+		</div>
+	</div>
+		<img src="images/renew.png" class="renew" alt="국민신문고가 새단장을 하고 찾아옵니다!"/>
+	<div class="close">
+		<input type="checkBox" name="dontShow" id="dontShow"/>
+		<label for="dontShow">오늘하루 보지 않기</label>
+		<input type="submit" value="창닫기" onclick="window.close()">
+	</div>
+</body>
+</html>
