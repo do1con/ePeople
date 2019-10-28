@@ -1,6 +1,7 @@
 # ePeople
 
 국민신문고를 카피해서 만든 제 첫번째 프로젝트 입니다.
+<a href="https://www.epeople.go.kr/">(원본 : https://www.epeople.go.kr/ )</a>
 메인페이지 1개, 서브페이지 5개로 이루어져있으며
 버전에 상관없이 서브페이지는 모두 같습니다.
 게시판형 서브페이지의 경우 ver2는 json을 이용하였습니다.
