@@ -1,0 +1,12 @@
+﻿/* body공통 속성 */
+body,div,ul,li,dl,dt,dd,ol,p,h1,h2,h3,h4,h5,h6,form{margin: 0; padding: 0;}
+body{font-family: 'bmdh','맑은 고딕', 'Malgun Gothic','돋움',Dotum,helvetica,arial,sans-serif; font-size: 1em;}
+ul,ol,dl{list-style: none;}
+img{border: 0; vertical-align: top;}
+li,dt,dd{list-style: none;}
+html{overflow-y:scroll;}
+	a{text-decoration: none; color: #000000;}
+	
+.fl{float: left;}
+.fr{float: right;}
+.cf:after{content:''; display: block; clear: both;}

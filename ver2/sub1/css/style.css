@@ -1,0 +1,61 @@
+﻿
+/* 영역 (와이어프레임) */
+#wrap{width: 100%; position: relative; margin: 0 auto;}
+
+/* 헤더 */
+#header{width: 100%; height: 160px;}
+	#ssTopBar{width: 1400px; height: 50px; background-color: pink; margin: 0 auto;}
+		.ssGlobalNav{width: 700px; height: 50px; background-color: gray;}
+		.ssGlobalSearch{width: 700px; height: 50px; background-color: lightgreen;}
+		
+/* 탑 메뉴 (네비게이러.) */
+#TopNav{width: 1400px; margin: 10px auto 0 auto; left: 100px; font-family:sans-serif; color: #343434;}
+#TopNav>#title>span{display: none;}
+#TopNav>#title{margin-top: 5px;  margin-right: 353px;}
+#TopNav>li{float: left; margin: 0 18px;}
+#TopNav>.section_border:after{float: left; content:''; width: 1px; height: 24px; background-color: #aaaaaa; position: relative; top: -63px; left: -23px;}
+#TopNav>.lastOne {margin-right: 0; padding-right: 0;}
+#TopNav>li>a{display: block; text-decoration: none; line-height: 94px; text-align: center; font-size: 24px; color: #454545; padding: 5px 20px;}
+#TopNav>li:hover .width100{display: block;}
+	.width100{width:100%; position: absolute; background-color: white; left: 0; display: none; border-bottom: 1px solid blue;}
+	
+	.m_width{width: 1400px; margin: 0 auto;}
+	.m_width>li{margin-right: 40px; font-size: 1.3em;}
+	.m_width li ul li a{font-size: 0.9em; color: #666666; vertical-align: middle;}
+	.m_width li ul{margin-top: 20px;}
+	.m_width li ul li{list-style-image: url(../images/gray_dot.gif);}
+.firstBanner{margin-top: 50px; margin-bottom: 50px;}
+.justBanner{margin-top: 50px;}
+.m_width>.menuTitle{margin-top: 100px; margin-left: 100px; margin-right: 100px; border-top:4px solid black;}
+.sub_width{width: 300px;}
+
+		
+		
+/* 섹션 */
+#section{width: 100% opacity: 0.5;}
+	#ssMainGrid{width: 1400px; height:780px; margin: 0 auto;}
+		.ssGridSection{width: 1400px; height: 472px;}  
+			#ssMainBanner{width: 930px; height: 410px; margin-top:45px; background-color: black;}
+			#ssLogin{width: 455px; height: 410px; margin-left:15px; background-color: black; margin-top: 45px;}
+		.ssSecondGrid{width: 1400px; height: 218px; background-color: red;}
+			.listedSection{width:456px; height: 200px; background-color: black;}
+			.midOne{margin-left:15px; margin-right: 15px;}
+		.ssThirdGrid{width: 1400px; height: 90px; background-color: #ffff00;}
+			.callCenter{width: 456px; height: 80px; background-color: black;}
+	#ssListedSection{width: 1400px; height: 470px; background-color: pink; margin: 0 auto;}
+		.ssNoticeLine{width: 1400px; height: 80px; background-color: lightgreen;}
+		.ssComplaintNotice{width:470px; height: 384px; background-color: red;}
+		.ssCenterGrid{width:455px; height: 384px; background-color: blue;}
+		.ssCivilAnswer{width:475px; height: 384px; background-color: coral;}
+	#ssScrollSection{width: 1400px; height: 450px; background-color: green; margin: 0 auto;}
+		.ssCivilThinks{width: 1400px; height: 160px; background-color: brown;}
+		.ssSideScroll{width: 1400px; height: 290px; background-color: pink;  overflow: hidden;}
+			.ssSsBanner{width: 465px; height: 265px; background-color: black; margin-right: 20px;}
+		
+/* 푸터 */
+#footer{width: 100%; height: 430px; background-color: red; opacity: 0.5;}
+	#ssLangChoice{width: 1400px; height: 215px; background-color: blue; margin: 0 auto;}
+	#ssFooterBar{width: 1400px; height: 70px; background-color: red; margin: 0 auto;}
+	#ssCompInfo{width: 1400px; height: 145px; background-color: black; margin: 0 auto;}
+	
+
