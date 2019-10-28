@@ -1,0 +1,52 @@
+﻿		
+/* 섹션 */
+#section{width: 1400px; opacity: 0.5; margin: 0 auto;}
+		
+		/* 게시판 */
+.titleName span{margin-left: 20px; padding: 7px; border-radius:5px; color: white; font-weight: bold; font-size:0.7em;}
+
+.title {width: 1400px; height:670px; background-color: #ffff00;}
+.board {width: 1400px;}
+.orderList{width: 1400px; height: 50px; border-bottom: 1px solid black;}
+.orderList a:last-child:after{white-space:pre; content: '    '}
+.orderList a:first-child{padding-right: 132px;}
+.orderList a{padding-left: 10px; padding-right: 20px; line-height:50px; font-weight: bold; color:#666666;}
+.listed{width: 1400px;}
+.column{width: 1400px; height: 80px; border-bottom: 1px solid #555555;}
+.column:hover{background-color:#ffeeee;}
+.column:hover .Q{background-color:#ffffff;}
+.column:hover .titleName{background-color:#ffdddd;}
+.Q{width: 80px; line-height: 80px; height: 100%; text-align:center; border-right: 1px solid #dddddd; }
+.category{width:200px; height: 80px; line-height: 80px; text-align: center; border-right: 1px solid #dddddd;}
+.titleName{width: 780px; height: 80px; line-height: 80px; padding-left: 30px; border-right: 1px solid #dddddd;}
+.plusButton{width: 100px; height: 80px; line-height: 80px; text-align: center; font-weight:bold;}
+.plusButton>a{padding: 50px;}
+.boardsFooter{width: 1400px; height: 145px; text-align: center; line-height: 120px;}
+.boardsFooter>.boardsIndex>a{padding-left: 13px; padding-right: 13px;}
+.boardsFooter>.boardsIndex>a:hover{font-weight: bold; color: #aaaaaa;}
+.boardsFooter>.boardsIndex>a:first-child{font-weight: bold;}
+.boardsFooter>.boardsIndex>a:last-child{font-weight: bold;}
+.odd{font-weight: bold; color: black;}
+.video{ background-color:#ce0e7a;}
+.image{ background-color:#5aa3b2;}
+.select{ color: red; font-weight: bold;}
+.search{position: relative; right:0px; top:-120px;}
+.searchTitle{position: relative; right:-700px; top:-120px;}
+.searchInput{width: 250px; padding: 7px; border: 1px solid #dddddd;}
+.searchCategory{width: 130px; padding: 7px; border: 1px solid #dddddd;}
+.searchImage{width: 25px; margin-left: 10px; position: relative; top:5px;}
+.date{width: 100px; height: 80px; border-right: 1px solid #dddddd; text-align: center; line-height: 80px;}
+.view{width: 100px; height: 80px; border-right: 1px solid #dddddd; text-align: center; line-height: 80px;}
+.boardsCategory{width: 1400px; height: 50px; border-bottom:1px solid black;}
+.boardsCategory>.boardsCategoryHeight{height:50px; line-height: 50px; font-weight: bold; text-align: center;}
+
+/* 클릭시 글 나오게~~~~ 트랜지션~~~ */
+.texts{display: none; width: 1400px; white-space: pre; background-color: #dddddd; border-bottom: 1px solid black;}
+.boardsText p{white-space: pre;}
+#Title1:checked ~ div.boardsText1{display: block;} 
+#Title2:checked ~ div.boardsText2{display: block;}
+.listed input{display: none;}
+.texts p{border-left: 1px solid #dddddd;}
+.texts .Q{background-color: white; font-weight: bold;}
+	
+		

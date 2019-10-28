@@ -1,0 +1,55 @@
+﻿
+
+
+		
+/* 섹션 */
+#section{width: 1400px; margin: 0 auto; }
+	
+/* 로그인 */
+#login{width: 1400px; height: 880px; .height:930px; margin: 0 auto;}
+	#login>.tap{width: 1400px; height: 65px; margin: 0 auto; margin-top:40px;}
+	#login>.tap>input[type='radio']{display: none;}
+	#login>.tap>label{display: block; width: 350px; height: 70px; border:1px solid #999999; float: left; line-height: 70px; .line-height: 70px; text-align: center; font-size: 24px; font-weight: bold; color: #444444; cursor: pointer;}
+	#login>.tap>#loginTap:checked ~ label[for='loginTap']{border-top: 2px solid #444444; border-bottom: 0px solid #ffffff;}
+	#login>.tap>.loginTap{margin-left: 170px;}
+	#login>.tap>#publicDoc:checked ~ label[for='publicDoc']{border-top: 2px solid #444444; border-bottom: 0px solid #ffffff;}
+	#login>.tap>#foreignerLog:checked ~ label[for='foreignerLog']{border-top: 2px solid #444444; border-bottom: 0px solid #ffffff;}
+	
+	#login>.loginSec{clear: both; margin-left: 400px; .margin-left: 400px; margin-top: 75px; float: left; width: 450px;}
+	#login>form{display: block; width: 640px; margin: 0 auto; height: 110px; text-align: center; margin-top: 50px;}
+	#login>form>.loginSec>input{display: block; width: 410px; height: 40px; color: #666666; line-height: 40px; .line-height: 40px; margin-bottom: 15px;}
+	#login>form>.loginSec>#ID{background: url(../../images/avatar.png) no-repeat 6px center; padding-left: 35px; .margin-left:-400px;}
+	#login>form>.loginSec>#PWD{background: url(../../images/locked.png) no-repeat 6px center; padding-left: 35px; .margin-left:-400px;}
+	#login>form>#submitLog{width: 170px; height: 111px; color: #ffffff; background-color: #608ee6; border-radius: 10px; margin-left: 12px; font-weight: bold; font-size: 24px; border: 0px solid #ffffff; display: block;}
+	#login>p{display: block; margin-top: 15px; clear: both; width: 600px; margin: 0 auto;}
+	#login>p>a{display: block; float: left; padding: 10px; color: #608ee6; font-size: 20px; font-weight: bold;}
+	#login>p>.findID{margin-left:-11px;}
+	
+	#login>.line{width: 1400px; height: 260px; clear: both; margin-top: 130px;}
+	#login>.line .tap1{width: 440px; height: 200px; border: 1px solid #666666; margin-left: 30px; transition: background-color 0.5s;}
+	#login>.line .tap1:hover{background-color: #079ad8;}
+	#login>.line .tap1:hover>h3{color: #ffffff;}
+	#login>.line .tap1:hover>p{color: #ffffff;}
+	#login>.line .tap1>h3{margin-top: 30px; margin-left: 30px; background:url(../images/next.png) no-repeat 250px center; color: #444444; font-size: 24px; font-weight: bold;}
+	#login>.line .tap1>p{color: #666666; margin-left: 30px; margin-top: 20px; font-size:1.2em;}
+	#login>.line div>img{margin-left: 340px; margin-top: -30px;}
+	#login>.line .tap2{width: 440px; height: 200px; border: 1px solid #666666; border-left: 0px; border-right: 0px; transition: background-color 0.5s;}
+	#login>.line .tap2:hover{background-color: #2aa8a9;}
+	#login>.line .tap2:hover>h3{color: #ffffff;}
+	#login>.line .tap2:hover>p{color: #ffffff;}
+	#login>.line .tap2>h3{margin-top: 30px; margin-left: 30px;  color: #444444; font-size: 24px; font-weight: bold;}
+	#login>.line .tap2>p{color: #666666; margin-left: 30px; margin-top: 20px; font-size:1.2em;}
+	#login>.line .tap3{width: 440px; height: 200px; border: 1px solid #666666; transition: background-color 0.5s;}
+	#login>.line .tap3:hover{background-color: #729aeb;}
+	#login>.line .tap3:hover>h3{color: #ffffff;}
+	#login>.line .tap3:hover>p{color: #ffffff;}
+	#login>.line .tap3>h3{margin-top: 30px; margin-left: 30px; background:url(../images/next.png) no-repeat 250px center; color: #444444; font-size: 24px; font-weight: bold;}
+	#login>.line .tap3>p{color: #666666; margin-left: 30px; margin-top: 20px; font-size:1.2em;}
+	.banner{margin-bottom: 50px;}
+
+
+
+
+
+
+

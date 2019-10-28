@@ -1,0 +1,47 @@
+﻿
+/* 영역 (와이어프레임) */
+#wrap{width: 100%; position: relative; margin: 0 auto;}
+
+/* 헤더 */
+#header{width: 100%; height: 160px;}
+	#title{margin-top: 5px; margin-right: 100px; position: relative; left:-140px;}
+	#ssTopBar{width: 100% height: 50px; background-color: pink;}
+		#ssTopMap{width:1400px; height: 50px; margin: 0 auto; background-color: black;}
+		
+/* 탑 메뉴 (네비게이러.) */
+#TopNav{width: 1400px; margin: 10px auto 0 auto; left: 100px; font:'NanumSquare','맑은 고딕', 'Malgun Gothic','Noto Sans Kr','돋움',Dotum,helvetica,arial,sans-serif; color: #343434;}
+#TopNav>#title>span{visibility: hidden;}
+#TopNav>li{float: left; margin: 0 50px;}
+#TopNav>li>a{display: block; text-decoration: none; color: #333333; line-height: 94px; text-align: center; font-size: 1.8em; font-weight: bold;}
+#TopNav>li:hover .width100{display: block;}
+	.width100{width:100%; position: absolute; background-color: white; left: 0; display: none; border-bottom: 1px solid blue;}
+	
+	.m_width{width: 1400px; margin: 0 auto;}
+	.m_width>li{margin-right: 40px; font-size: 1.3em;}
+	.m_width li ul li a{font-size: 1.1em; color: #666666; vertical-align: middle;}
+	.m_width li ul{margin-top: 20px;}
+	.m_width li ul li{list-style-image: url(../images/gray_dot.gif);}
+.firstBanner{margin-top: 50px; margin-bottom: 50px;}
+.justBanner{margin-top: 50px;}
+.m_width>.menuTitle{margin-top: 100px; margin-left: 100px; margin-right: 100px; border-top:4px solid black;}
+
+		
+/* 섹션 */
+#section{width: 1400px; opacity: 0.5; margin: 0 auto; background-color: black;}
+	.ssLnb{width: 400px; height: 1000px; background-color: pink;}
+		#section .ssLnb>h2{height: 75px; background-color: coral;}
+		.ssSideMenu{width: 400px; height: 500px; background-color: darkgreen;}
+	.ssRnb{width: 1000px; background-color: blue;}
+		.ssChoiceType{width: 1000px; height: 500px; background-color: yellow;}
+			.ssTitleSection{width: 1000px; height: 150px; background-color: lightblue;}
+		.ssListedPosts{width: 1000px; background-color:orange;}
+		
+		/* 게시판 */
+		
+		
+
+/* 푸터 */
+#footer{width: 100%; height: 430px; background-color: red; opacity: 0.5;}
+	#ssFooterBar{width: 1400px; height: 70px; background-color: red; margin: 0 auto;}
+	#ssCompInfo{width: 1400px; height: 145px; background-color: black; margin: 0 auto;}
+	
