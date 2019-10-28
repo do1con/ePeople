@@ -8,11 +8,13 @@
 <dl>
 <dt>ver1</dt>
 <dd>
-HTML5, CSS3
-HTML5, CSS3 를 이용하여 국민신문고의 모습을 최대한 똑같이 구현하는 것을 목표로 만들었습니다.<br/>
-첫 프로젝트인 만큼 HTML, CSS와 친해지기 위하여 원본의 소스를 참고하지 않고 스스로 만들었습니다.<Br/>
-SEO를 고려하여 meta태그를 사용하였고 문서작업만 한 프로젝트인 만큼<br/>
-브라우저 호환성도 고려하여 ie7까지 깨지지 않고 호환되도록 작업하였습니다.<br/>
+HTML5, CSS3 를 이용하여 국민신문고의 모습을 최대한 똑같이 구현하는 것을 목표로 만들었습니다.<br/><br/>
+<img src="ver1-main_page.png" alt="ver1 메인페이지">
+</dd>
+<dt>ver2</dt>
+<dd>
+ver1에서 jQuery를 추가하여 메인슬라이드 등 간단한 인터렉션 효과를 추가 한 버전입니다.<br/>
+width 100% 상태로 메인슬라이드를 구현하고 싶어서 중복되는 Grid UI를 없애고 디자인적인 변화도 주었습니다.<br/><br/>
+<img src="ver2-main_page.png" alt="ver2 메인페이지">
 </dd>
 </dl>
-<img src="ver1-main_page.png" alt="ver1 메인페이지">
