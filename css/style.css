@@ -81,8 +81,8 @@
 		.ssNoticeLine{width: 1400px; height: 80px; margin: 0 auto; position: relative;}
 		.ssNoticeLine>h2{font-size: 26px; font-weight: bold; color:#555555; line-height: 80px; margin-left: 15px;}
 		.ssNoticeLine>h2:after{content: ''; width: 1px; height: 25px; background-color: #666666; float:right; margin-top: 28px; margin-left: 33px;}
-		.ssNoticeLine>a{display: none; padding: 10px; color:#134bbc; text-align: left; letter-spacing: -1px; font-size: 25px; font-weight: bold; line-height: 60px; margin-left: 50px; position: absolute;}
-		.ssNoticeLine>a.on{display: block; left: 180px;}
+		.ssNoticeLine>.ssNoticeContainer>a{display: none; padding: 10px; color:#134bbc; text-align: left; letter-spacing: -1px; font-size: 25px; font-weight: bold; line-height: 60px; margin-left: 50px; position: absolute;}
+		.ssNoticeLine>.ssNoticeContainer>a.on{display: block; left: 180px;}
 		.ssNoticeLine>p{float: right; margin-top: 25px;}
 	
 		/* 유사민원검색 */

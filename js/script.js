@@ -241,9 +241,10 @@ jQuery(document).ready(function(){
 	
 	/* 공지사항 슬라이드 */
 	var interval = 4000;
+	var timer;
 	$('.ssNoticeLine').each(function(){
-		var timer;
-		var container = $(this);
+		
+		var container = $('.ssNoticeContainer');
 		
 		function switchImg(){
 			var anchors = container.find('a');
@@ -252,16 +253,56 @@ jQuery(document).ready(function(){
 			var last = anchors.last();
 			first.stop().slideUp().appendTo(container);
 			second.stop().slideDown();
-			
 		};
+
 		function startTimer(){
-			timer = setInterval(switchImg, interval);
+		 	timer = setInterval(switchImg, interval);
 		};
+
 		function stopTimer(){
 			clearInterval(timer);
 		};
+
 		container.find('a').hover(stopTimer, startTimer);
 		startTimer();
+
+	});
+
+	/* 공지사항 버튼 */
+
+		$('.ssNoticeLine>p>input').click(function(){
+
+			var container = $('.ssNoticeContainer');
+			var anchors = container.find('a');
+			var first = anchors.eq(0);
+			var second = anchors.eq(1);
+			var third = anchors.eq(2);
+			var last = anchors.last();
+
+			var throttle = null;
+			if (!throttle){
+
+				throttle = setTimeout(function(){
+					if($(this).hasClass('before')){
+
+						last.slideDown(function(){
+							last.prependTo(container);
+						});
+						first.slideUp(function(){
+							first.insertAfter(last);
+						});
+
+					} else if ($(this).hasClass('pause')){
+
+						clearInterval(timer);
+
+					} else if ($(this).hasClass('next')){
+
+					}
+					throttle = null;
+			},500);
+			throttle();
+		}
 	});
 	
 	/* 나의 제안이 이렇게 반영되었어요 슬라이드 */
